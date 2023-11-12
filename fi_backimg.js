@@ -5,5 +5,5 @@ const images = [...new Array(5).keys()].map(
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 const bgImage = document.querySelector("body");
 
-bgImage.style = `background-image:url(img/${chosenImage})`;
+bgImage.style = `background-image:url(${chosenImage})`;
 // document.body.appendChild(bgImage);
