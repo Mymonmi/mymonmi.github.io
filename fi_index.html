@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="fi_style.css" />
+    <title>Mymonmi Momentum></title>
+  </head>
+  <body class="background">
+    <form id="login-form" class="hidden topright">
+      <input type="text" placeholder="Who are you ?_?" required />
+      <button>Login</button>
+    </form>
+    <h2 id="greeting" class="hidden topright"></h2>
+    <form class="topleft" id="clock">
+      <span id="date">Saturday, Nov 11</span>
+      <!-- <h2 id="time">00:00</h2> -->
+    </form>
+    <form id="todo-form" class="center-mid">
+      <input type="text" placeholder="What should you do?" required />
+    </form>
+    <form class="center-midlow" id="todo-list">
+      <ul></ul>
+    </form>
+    <!-- <ul class="center-mid" id="todo-list"></ul> -->
+
+    <!-- <h2>You Have toDos</h2> -->
+
+    <div id="weather" class="bottomright">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/fi_app.js"></script>
+    <script src="js/fi_clock.js"></script>
+    <script src="js/fi_backimg.js"></script>
+    <script src="js/fi_todo.js"></script>
+    <script src="js/fi_weather.js"></script>
+  </body>
+</html>
